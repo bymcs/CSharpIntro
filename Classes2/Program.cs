@@ -31,7 +31,7 @@
 
         public int ToplaParams(params int[] sayilar)
         {
-
+            
             //int sum = 0;
             //foreach (int i in sayilar)
             //{

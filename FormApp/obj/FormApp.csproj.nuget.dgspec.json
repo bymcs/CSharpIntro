@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj": {}
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\FormApp\\FormApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\FormApp\\FormApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\FormApp\\FormApp.csproj",
         "projectName": "FormApp",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\FormApp\\FormApp.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\FormApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

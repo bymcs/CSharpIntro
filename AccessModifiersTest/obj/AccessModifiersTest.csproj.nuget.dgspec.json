@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj": {}
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj",
         "projectName": "AccessModifiersTest",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiersTest\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiersTest\\AccessModifiersTest.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiersTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj": {
-                "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj"
+              "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj": {
+                "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj"
               }
             }
           }
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj",
         "projectName": "AccessModifiers",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\AccessModifiers\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\AccessModifiers.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\AccessModifiers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
