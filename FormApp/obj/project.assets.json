@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\FormApp\\FormApp.csproj",
+      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj",
       "projectName": "FormApp",
-      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\FormApp\\FormApp.csproj",
+      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\FormApp.csproj",
       "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\FormApp\\obj\\",
+      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\FormApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",

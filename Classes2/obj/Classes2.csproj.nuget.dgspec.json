@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Classes2\\Classes2.csproj": {}
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Classes2\\Classes2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Classes2\\Classes2.csproj": {
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Classes2\\Classes2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Classes2\\Classes2.csproj",
+        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Classes2\\Classes2.csproj",
         "projectName": "Classes2",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Classes2\\Classes2.csproj",
+        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Classes2\\Classes2.csproj",
         "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Classes2\\obj\\",
+        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Classes2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj",
       "projectName": "Arrays",
-      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Arrays\\Arrays.csproj",
+      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj",
       "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\Arrays\\obj\\",
+      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",

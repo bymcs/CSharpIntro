@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\ListsForm\\ListsForm.csproj",
+      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ListsForm\\ListsForm.csproj",
       "projectName": "ListsForm",
-      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\ListsForm\\ListsForm.csproj",
+      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ListsForm\\ListsForm.csproj",
       "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntroV7\\ListsForm\\obj\\",
+      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ListsForm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
