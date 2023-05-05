@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes2", "Classes2\Classes2.csproj", "{1B01F76B-AC7B-4BFA-A88F-78F2DF7FA71E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesForm", "ClassesForm\ClassesForm.csproj", "{71A9050C-43D1-45FC-8FE5-1B8357C22417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1B01F76B-AC7B-4BFA-A88F-78F2DF7FA71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B01F76B-AC7B-4BFA-A88F-78F2DF7FA71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B01F76B-AC7B-4BFA-A88F-78F2DF7FA71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A9050C-43D1-45FC-8FE5-1B8357C22417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A9050C-43D1-45FC-8FE5-1B8357C22417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A9050C-43D1-45FC-8FE5-1B8357C22417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A9050C-43D1-45FC-8FE5-1B8357C22417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
