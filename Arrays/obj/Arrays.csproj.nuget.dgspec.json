@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Arrays\\Arrays.csproj": {}
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Arrays\\Arrays.csproj": {
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Arrays\\Arrays.csproj",
+        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj",
         "projectName": "Arrays",
-        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Arrays\\Arrays.csproj",
-        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Arrays\\obj\\",
+        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\Arrays.csproj",
+        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

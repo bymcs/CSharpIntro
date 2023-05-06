@@ -34,6 +34,11 @@ namespace Project4.DataAccess
             Console.WriteLine("Eklendi");
         }
 
+        public void Delete(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll() 
         {
 
@@ -41,7 +46,14 @@ namespace Project4.DataAccess
         
         }
 
+        public List<Product> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
 
-
+        public void Update(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

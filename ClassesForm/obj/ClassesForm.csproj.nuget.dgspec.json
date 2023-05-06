@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\ClassesForm\\ClassesForm.csproj": {}
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ClassesForm\\ClassesForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\ClassesForm\\ClassesForm.csproj": {
+    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ClassesForm\\ClassesForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\ClassesForm\\ClassesForm.csproj",
+        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ClassesForm\\ClassesForm.csproj",
         "projectName": "ClassesForm",
-        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\ClassesForm\\ClassesForm.csproj",
-        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\ClassesForm\\obj\\",
+        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ClassesForm\\ClassesForm.csproj",
+        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\ClassesForm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

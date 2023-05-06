@@ -8,19 +8,29 @@ using System.Threading.Tasks;
 
 namespace Project4.Business
 {
-    public class ProductManager
+    public class ProductManager : IProductService
     {
         IProductDal _productDal;
 
-        public ProductManager(IProductDal product)
+        public ProductManager(IProductDal productDal)
         {
-            _productDal = product;
+            _productDal = productDal;
         }
 
+        public void Add(Product product)
+        {
+            if (product.ProductName == "Laptop")
+            {
+
+                throw new DuplicateProductException("<aaaaaaaaaaa>");
+
+            }
+            
+            _productDal.Add(product);
+        }
 
         public List<Product> GetAll()
         {
-           // EFProductDal productDal = new EFProductDal();
             return _productDal.GetAll();
         }
     }
