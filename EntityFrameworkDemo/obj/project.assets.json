@@ -3180,19 +3180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BYMCS\\.nuget\\packages\\": {}
+    "C:\\Users\\mc.sahin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
       "projectName": "EntityFrameworkDemo",
-      "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
-      "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
+      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+      "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

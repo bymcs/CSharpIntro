@@ -8,12 +8,12 @@ namespace EntityFrameworkDemo
 {
     public class Product
     {
-        public int ProductID { get; set; } // primary key
-        public int CategoryID { get; set; } // foreign key
+        public int ProductId { get; set; } // primary key
+        public int CategoryId { get; set; } // foreign key
         public string ProductName { get; set; }
         public string QuantityPerUnit { get; set; }
         public decimal UnitPrice { get; set; }
-        public int UnitsInStock { get; set; }
+        public short UnitsInStock { get; set; }
     }
 
 }

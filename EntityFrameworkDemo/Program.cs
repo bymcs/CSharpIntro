@@ -6,13 +6,12 @@
         {
 
             NorthwindContext northwindContext = new NorthwindContext();
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine(northwindContext.Products);
+            //Console.WriteLine("Hello, World!");
 
 
-            foreach (var product in northwindContext.Products)
+            foreach (var p in northwindContext.Products)
             {
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(p.ProductId+" "+p.ProductName+" "+p.UnitPrice);
             }
         }
     }
