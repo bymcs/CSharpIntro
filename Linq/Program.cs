@@ -28,20 +28,41 @@ namespace Linq
             };
 
             //Test(products);
-
             //AnyTest(products);
-
             //FindTest(products);
-
             //FindAllTest(products);
+            //AscDescTest(products);
+            //ClassicLinqTest(products);
 
-            AscDescTest(products);
+            var result = from p in products
+                         join c in categories
+                         on p.CategoryId equals c.CategoryId
+                         where p.UnitPrice > 5000
+                         orderby p.UnitPrice descending
+                         select new ProductDto { ProductId = p.CategoryId, CategoryName = c.CategoryName, ProductName= p.ProductName ,UnitPrice = p.UnitPrice, };
+            
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.ProductName+" -- "+item.CategoryName);
+            }
 
+        }
+
+        private static void ClassicLinqTest(List<Product> products)
+        {
+            var result = from p in products
+                         where p.UnitPrice > 5000
+                         orderby p.UnitPrice descending, p.ProductName descending
+                         select new ProductDto { ProductId = p.ProductId, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.ProductName);
+            }
         }
 
         private static void AscDescTest(List<Product> products)
         {
-            var result = products.Where(p => p.ProductName.Contains("top")).OrderBy(p => p.UnitPrice).ThenByDescending(p => p.ProductName);
+            var result = products.Where(p => p.ProductName.Contains("top")).OrderByDescending(p => p.UnitPrice).ThenByDescending(p => p.ProductName);
 
             foreach (var item in result)
             {
@@ -107,7 +128,13 @@ namespace Linq
             return products.Where(p => p.UnitPrice > 8000).ToList();
         }
 
-
+        class ProductDto
+        {
+            public int ProductId { get; set; }
+            public string CategoryName { get; set; }
+            public string ProductName { get; set; }
+            public decimal UnitPrice { get; set; }
+        }
 
         class Product
         {
