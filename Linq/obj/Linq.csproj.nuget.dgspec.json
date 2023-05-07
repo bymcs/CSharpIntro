@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Linq\\Linq.csproj": {}
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Linq\\Linq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Linq\\Linq.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Linq\\Linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Linq\\Linq.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Linq\\Linq.csproj",
         "projectName": "Linq",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Linq\\Linq.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Linq\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Linq\\Linq.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Linq\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

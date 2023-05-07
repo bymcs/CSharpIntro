@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project4.DataAccess
 {
-    public interface IProductDal : IEntityRepository<Product>
+    public interface IProductDal : IEntityRepository<Product>, AsyncEntityRepository<Product>
     {
         //List<Product> GetAll();
 

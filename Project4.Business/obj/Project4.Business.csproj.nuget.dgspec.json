@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Business\\Project4.Business.csproj": {}
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Business\\Project4.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Business\\Project4.Business.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Business\\Project4.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Business\\Project4.Business.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Business\\Project4.Business.csproj",
         "projectName": "Project4.Business",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Business\\Project4.Business.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Business\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Business\\Project4.Business.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj"
+              "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj"
               },
-              "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
-                "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
+              "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+                "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
               }
             }
           }
@@ -66,17 +66,17 @@
         }
       }
     },
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj",
         "projectName": "Project4.DataAccess",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\Project4.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +90,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
-                "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
+              "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+                "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
               }
             }
           }
@@ -105,6 +105,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -125,17 +135,17 @@
         }
       }
     },
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
         "projectName": "Project4.Entities",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\Project4.Entities\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

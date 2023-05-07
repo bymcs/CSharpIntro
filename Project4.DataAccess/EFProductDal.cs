@@ -1,4 +1,5 @@
-﻿using Project4.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Project4.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,47 +12,87 @@ namespace Project4.DataAccess
     {
 
 
-        List<Product> _products;
         public EFProductDal()
         {
-
-            _products = new List<Product>
-            {
-                new Product { ProductId = 1, ProductName="Lenovo ef Laptop", QuantityPerUnit="32 GB RAM", UnitPrice=10000, UnitsInStock=4 },
-                new Product { ProductId = 2, ProductName="Dell ef Laptop", QuantityPerUnit="16 GB RAM", UnitPrice=8000, UnitsInStock=7 },
-                new Product { ProductId = 3, ProductName="HP ef Laptop", QuantityPerUnit="8 GB RAM", UnitPrice=6000, UnitsInStock=2 },
-                new Product { ProductId = 4, ProductName="Asus ef Laptop", QuantityPerUnit="16 GB RAM", UnitPrice=9000, UnitsInStock=1 },
-                new Product { ProductId = 5, ProductName="Acer ef Laptop", QuantityPerUnit="8 GB RAM", UnitPrice=5000, UnitsInStock=0 },
-                new Product { ProductId = 6, ProductName="MSI ef Laptop", QuantityPerUnit="32 GB RAM", UnitPrice=12000, UnitsInStock=3 },
-                new Product { ProductId = 7, ProductName="Apple ef MacBook", QuantityPerUnit="16 GB RAM", UnitPrice=15000, UnitsInStock=6 },
-                new Product { ProductId = 8, ProductName="Microsoft ef Surface", QuantityPerUnit="8 GB RAM", UnitPrice=12000, UnitsInStock=2 },
-                new Product { ProductId = 9, ProductName="Huawei ef MateBook", QuantityPerUnit="16 GB RAM", UnitPrice=9000, UnitsInStock=5 },
-                new Product { ProductId = 10, ProductName="Samsung ef Notebook", QuantityPerUnit="8 GB RAM", UnitPrice=7000, UnitsInStock=8 }
-            };
 
         }
 
         public void Add(Product product)
         {
-            Console.WriteLine("EF ile Eklendi");
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                context.Add(product);
+                context.SaveChanges();
+            }
+        }
+
+        public async Task AddAsync(Product product)
+        {
+            NorthwindContext context = new NorthwindContext();
+            await context.AddAsync(product);
+            await context.SaveChangesAsync();
+
         }
 
         public void Delete(Product product)
+        {
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                context.Products.Remove(context.Products.SingleOrDefault(p => p.ProductId == product.ProductId));
+                context.SaveChanges();
+            }
+        }
+
+        public Task DeleteAsync(Product entity)
         {
             throw new NotImplementedException();
         }
 
         public List<Product> GetAll()
         {
-            return _products;
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return context.Products.ToList();
+            }
         }
 
-        public List<Product> GetById(int id)
+        public Task<List<Product>> GetAllAsync()
+        {
+            NorthwindContext context = new NorthwindContext();
+            return context.Products.ToListAsync();
+        }    
+
+        public Product GetById(int id)
+        {
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                return context.Products.FirstOrDefault(p => p.ProductId == id);
+            }
+        }
+
+        public Task<Product> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
         public void Update(Product product)
+        {
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                var productToUpdate = context.Products.SingleOrDefault(p => p.ProductId == product.ProductId);
+
+                productToUpdate.ProductId = product.ProductId;
+                productToUpdate.ProductName = product.ProductName;
+                productToUpdate.UnitPrice = product.UnitPrice;
+                productToUpdate.QuantityPerUnit = product.QuantityPerUnit;
+                productToUpdate.UnitsInStock = product.UnitsInStock;
+                productToUpdate.CategoryId = product.CategoryId;
+                context.SaveChanges();
+
+            }
+        }
+
+        public Task UpdateAsync(Product entity)
         {
             throw new NotImplementedException();
         }

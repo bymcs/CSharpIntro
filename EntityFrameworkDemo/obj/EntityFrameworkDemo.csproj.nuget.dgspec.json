@@ -1,20 +1,89 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj": {}
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj": {
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
         "projectName": "EntityFrameworkDemo",
-        "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
-        "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+                "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
+        "projectName": "Project4.Entities",
+        "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj",
+        "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,16 +108,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

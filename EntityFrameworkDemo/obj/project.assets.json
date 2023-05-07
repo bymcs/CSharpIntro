@@ -1027,6 +1027,16 @@
             "rid": "win"
           }
         }
+      },
+      "Project4.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Project4.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project4.Entities.dll": {}
+        }
       }
     }
   },
@@ -3171,28 +3181,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Project4.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Project4.Entities/Project4.Entities.csproj",
+      "msbuildProject": "../Project4.Entities/Project4.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.5",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
+      "Project4.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mc.sahin\\.nuget\\packages\\": {}
+    "C:\\Users\\BYMCS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+      "projectUniqueName": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
       "projectName": "EntityFrameworkDemo",
-      "projectPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
-      "packagesPath": "C:\\Users\\mc.sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mc.sahin\\Documents\\Visual Studio 2022\\Project\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
+      "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\EntityFrameworkDemo.csproj",
+      "packagesPath": "C:\\Users\\BYMCS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\EntityFrameworkDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mc.sahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BYMCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3205,7 +3221,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj": {
+              "projectPath": "C:\\Users\\BYMCS\\Documents\\Github\\CSharpIntro\\Project4.Entities\\Project4.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
